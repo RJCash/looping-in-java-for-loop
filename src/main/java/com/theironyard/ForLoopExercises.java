@@ -21,7 +21,12 @@ public class ForLoopExercises {
      */
     public static int addRange(int from, int to, int step){
         // todo: implement this method using a for loop
-        return 0;
+        int sum = 0;
+        for(int x = from; x <= to; x += step){
+            sum += x;
+        }
+
+        return sum;
     }
 
     /**
@@ -32,7 +37,17 @@ public class ForLoopExercises {
      */
     public static String repeatString(String str, int times){
         // todo: implement this method
-        return null;
+        int howManyStr = 0;
+        final String appendStr = str;
+        for(int x =1; x < times; x++){
+
+            str += appendStr;
+
+
+        }
+
+        return str;
     }
 
 }
+
